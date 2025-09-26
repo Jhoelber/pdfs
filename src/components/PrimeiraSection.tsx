@@ -208,6 +208,152 @@ export const PrimeiraSection = () => {
 
       </section>
 
+      <section className="bg-neutral-200 ">
+        <div className="flex justify-center p-8">
+          <img
+            className="w-24 sm:w-28 md:w-32 mb-3"
+            src="./imgteste.png"
+            alt=""
+          />
+          <img
+            className="w-24 sm:w-28 md:w-32 mb-3"
+            src="./imgteste.png"
+            alt=""
+          />
+        </div>
+      </section>
+
+      <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 text-center">
+        <h1 className="p-4 text-zinc-500 text-xl sm:text-2xl md:text-3xl font-semibold leading-snug">Ao adquirir o Plano Completo hoje, você receberá
+          <span className="text-green-500">03 bônus exclusivos</span>:</h1>
+
+        <div className="
+    grid gap-4
+    grid-cols-1 sm:grid-cols-2 md:grid-cols-4
+  ">
+          {[
+            {
+              titulo: "Bônus 01",
+              subtitulo: "60 Obras Internacionais para Colorir",
+              desc: "Um conjunto especial com 60 obras internacionais adaptadas para o universo infantil. Além das ilustrações para colorir, cada página apresenta dados do artista, curiosidades sobre a obra e um resumo da sua trajetória — unindo arte e cultura de forma leve, lúdica e criativa."
+            },
+            {
+              titulo: "Bônus 02",
+              subtitulo: "30 Obras Nacionais para Colorir",
+              desc: "Uma seleção especial com 30 obras brasileiras adaptadas para o universo infantil. Além das ilustrações para colorir, cada página apresenta dados do artista, curiosidades sobre a obra e um resumo da sua trajetória — unindo arte e cultura de forma leve, lúdica e criativa.."
+            },
+            {
+              titulo: "Bônus 03",
+              subtitulo: "Cartões Visuais – Conheça o Artista!",
+              desc: "Cartões ilustrados com informações rápidas e curiosas sobre os grandes nomes da arte. Ideal para usar como jogo, consulta ou exposição em casa ou na sala de aula."
+            },
+            {
+              titulo: "Bônus 04",
+              subtitulo: "Mundo Colorido",
+              desc: "Dê asas à criatividade dos pequenos com o Mundo Colorido! Perfeito para incentivar a expressão artística das crianças, permitindo que elas pintem e explorem um mundo de cores e fantasia."
+            }
+          ].map((item, i) => (
+            <div
+              key={i}
+              className="flex flex-col items-center text-center border-2 border-orange-500 rounded-xl p-4 md:p-6 h-full"
+            >
+              <img
+                className="w-24 sm:w-28 md:w-32 mb-3"
+                src="./imgteste.png"
+                alt=""
+              />
+              <h1 className="text-neuteral-500 text-lg sm:text-xl md:text-2xl font-semibold mb-2">
+                {item.titulo}
+              </h1>
+              <h2 className="text-orange-500 text-lg sm:text-xl md:text-2xl font-semibold mb-2">
+                {item.subtitulo}
+              </h2>
+              <p className="text-sm sm:text-base text-zinc-700">
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+
+
+
+      </section>
+
+
+      <section className="  px-4 sm:px-6 lg:px-8 py-10 text-center bg-orange-50">
+
+        <h1 className="p-4 text-zinc-600 text-xl sm:text-2xl md:text-3xl font-semibold leading-snug">Como funciona:</h1>
+
+        <div className="
+   
+  ">
+          {[
+            {
+              imagem: <img src="./gmail.png" alt="" />,
+              subtitulo: "Chega no seu e-mail",
+              desc: "As atividades são todas 100% em PDF, após o pagamento você recebe imediatamente o link de acesso no seu e-mail e tem acesso vitalício e atualizações."
+            },
+            {
+              imagem: <img src="./impressora.png" alt="" />,
+              subtitulo: "Você Imprime",
+              desc: "O material é todo dividido em módulos temáticas. Assim você pode imprimir quantas vezes quiser e como desejar na sua casa."
+            },
+            {
+              imagem: <img src="./tesoura.png" alt="" />,
+              subtitulo: (
+                <>
+                  hora de Aprender{" "}
+                  <span className="text-neutral-600">(05 a 15 minutos por dia)</span>
+                </>
+              ),
+              desc: "É hora de colorir, recortar, modelar, aprender e explorar o universo da arte de forma leve e divertida!"
+            }
+
+          ].map((item, i) => (
+            <div
+              key={i}
+              className="flex flex-col items-center text-center  p-4 md:p-6 h-full"
+            >
+
+              <h1 className=" w-24 text-neuteral-500 text-lg sm:text-xl md:text-2xl font-semibold mb-2">
+                {item.imagem}
+              </h1>
+              <h2 className="text-orange-500 text-lg sm:text-xl md:text-2xl font-semibold mb-2">
+                {item.subtitulo}
+              </h2>
+              <p className="text-sm sm:text-base text-zinc-700">
+                {item.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+
+      </section>
+
+
+      <section className="container mx-auto px-4 sm:px-6 lg:px-8 my-8">
+        <div className="flex flex-col items-center p-6 bg-neutral-100 rounded-xl text-center shadow-md">
+          <img
+            className="w-40 sm:w-48 md:w-56 mb-4"
+            src="./impressora.png"
+            alt="Impressora 3D"
+          />
+
+          <h1 className="mb-4 text-zinc-600 text-lg sm:text-xl md:text-2xl font-semibold leading-snug">
+            O Arte em 3D é recomendado por{" "}
+            <span className="text-green-500">
+              educadores da BNCC que valorizam o ensino cultural e visual
+            </span>.
+          </h1>
+
+          <ul className="space-y-1 text-sm sm:text-base text-zinc-700">
+            <li>✔️ Baseado na ciência</li>
+            <li>✔️ Escolhido por muitos pais</li>
+            <li>✔️ Preferido por professores</li>
+            <li>✔️ Alinhado à BNCC</li>
+          </ul>
+        </div>
+      </section>
 
 
 
