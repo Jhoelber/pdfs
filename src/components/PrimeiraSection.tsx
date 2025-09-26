@@ -387,7 +387,7 @@ export const PrimeiraSection = () => {
             href="https://www.youtube.com/watch?v=co-4gkvjNvw"
             className="text-white inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg sm:text-xl font-semibold bg-green-600 hover:bg-green-700 w-full sm:w-auto"
           >
-            Comprar Agora.
+            Comprar Agora
           </a>
         </div>
       </section>
