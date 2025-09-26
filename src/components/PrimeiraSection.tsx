@@ -392,9 +392,58 @@ export const PrimeiraSection = () => {
         </div>
       </section>
 
+      <section className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-[#34d399]">
+        <h1 className="text-white text-center text-2xl mb-6">
+          Plano Completo - Mais de 200 atividades por menos de R$0,25 cada!:</h1>
+
+        <div className="mx-auto max-w-md flex flex-col items-center p-6 bg-white rounded-xl text-center shadow-md">
+          <img
+            className="w-32 sm:w-40 md:w-48 mb-4 animate-pulse-scale"
+            src="./impressora.png"
+            alt="Impressora 3D"
+          />
+
+          <div className="flex flex-col gap-2">
+
+            <p>✔️ Desenvolver o repertório cultural desde a infância</p>
+            <p> ✔️Estimular o interesse por arte, história e criatividade</p>
+            <p>
+              ✔️Aprimorar habilidades motoras com atividades de pintura, recorte e colagem</p>
+            <p>
+              ✔️Substituir o tempo de tela por uma atividade educativa</p>
+            <p>✔️ Aumentar a concentração e o foco</p>
+            <p> ✔️Melhorar o foco, a atenção e a organização mental</p>
+            <p> ✔️Ampliar a imaginação com obras inspiradoras</p>
+            <p>
+              ✔️  Criar momentos de conexão entre adultos e crianças</p>
+            <p>
+              ✔️ Trabalhar emoções através da expressão artística</p>
+            <p>
+              ✔️ Introduzir grandes artistas de forma lúdica e acessível</p>
+            <p>✔️Promover o aprendizado ativo de forma divertida </p>
+          </div>
+          <h1 className="text-xl text-red-500 font-extrabold mx-22 py-8">Os materiais separados custariam R$97,00</h1>
+          <p className="text-2xl pb-8">Mas, somente nesta oferta, o valor promocional que você irá investir hoje é apenas:</p>
+          <h2>De <span className="text-neutral-900 font-extrabold line-through"> R$97,90 </span>por</h2>
+
+          <h2 className="text-green-500 mb-4 text-4xl font-bold ">R$37,90</h2>
+
+          <a
+            href="https://www.youtube.com/watch?v=co-4gkvjNvw"
+            className="animate-pulse-scale-button text-white inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg sm:text-xl font-semibold bg-green-600 hover:bg-green-700 w-full sm:w-auto"
+          >
+            Comprar Agora
+          </a>
+          <p className="font-bold py-2 animate-pulse-scale">ultimo dia com <span className="text-red-500">DESCONTO</span> do <span className="text-neutral-800">Arte em 3D</span></p>
+          <p className="font-bold bg-red-200 p-2 rounded-sm">Apartir <span className="text-red-500">DE AMANHÃ</span> o preçõ será ajustado.</p>
+        </div>
+      </section>
 
 
-
+      <section className="flex flex-col bg-zinc-200 mx-auto px-4 sm:px-6 lg:px-8 py-12 items-center">
+        <h1 className="text-center text-zinc-700 text-2xl ">Ficou com dúvidas? Converse com a gente no WhatsApp!</h1>
+        <a href="#"> <img src="./whats.png" className="w-46" alt="" /></a>
+      </section>
 
 
 
