@@ -355,6 +355,49 @@ export const PrimeiraSection = () => {
         </div>
       </section>
 
+      <h1 className="mb-4 text-zinc-600 text-lg sm:text-xl md:text-2xl font-semibold leading-snug text-center">
+        Criatividade e cultura <span className="text-green-500">
+          VALEM MAIS
+        </span>.
+        que qualquer tela!
+      </h1>
+
+
+
+
+
+
+      <section className="mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-amber-500">
+        <h1 className="text-white text-center text-2xl mb-6">Plano Básico:</h1>
+
+        <div className="mx-auto max-w-md flex flex-col items-center p-6 bg-white rounded-xl text-center shadow-md">
+          <img
+            className="w-32 sm:w-40 md:w-48 mb-4"
+            src="./impressora.png"
+            alt="Impressora 3D"
+          />
+
+          <h1 className="mb-2 text-zinc-600 text-lg sm:text-xl md:text-xl leading-snug">
+            ✔️ 60 moldes 3D de obras mundiais
+          </h1>
+
+          <h2 className="text-green-500 mb-4 text-4xl font-bold ">R$19,90</h2>
+
+          <a
+            href="https://www.youtube.com/watch?v=co-4gkvjNvw"
+            className="text-white inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg sm:text-xl font-semibold bg-green-600 hover:bg-green-700 w-full sm:w-auto"
+          >
+            Comprar Agora
+          </a>
+        </div>
+      </section>
+
+
+
+
+
+
+
 
 
     </div>
