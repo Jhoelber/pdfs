@@ -435,7 +435,7 @@ export const PrimeiraSection = () => {
             Comprar Agora
           </a>
           <p className="font-bold py-2 animate-pulse-scale">ultimo dia com <span className="text-red-500">DESCONTO</span> do <span className="text-neutral-800">Arte em 3D</span></p>
-          <p className="font-bold bg-red-200 p-2 rounded-sm">Apartir <span className="text-red-500">DE AMANHÃ</span> o preçõ será ajustado.</p>
+          <p className="font-bold bg-red-200 p-2 rounded-sm">Apartir <span className="text-red-500">DE AMANHÃ</span> o preço será ajustado.</p>
         </div>
       </section>
 
