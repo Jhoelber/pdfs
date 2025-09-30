@@ -26,7 +26,7 @@ export function Carousel2() {
 
         <CarouselItem className="pl-2 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center">
           <img
-            src="src\components\carrosselSection1\TerceiraColorir3d.jpg"
+            src="/carrosselSection1/TerceiraColorir3d.jpg"
             alt="Crianças pintando"
             className="max-w-[260px] h-auto object-contain rounded-xl"
           />
@@ -34,7 +34,7 @@ export function Carousel2() {
 
         <CarouselItem className="pl-2 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center">
           <img
-            src="src\components\carrosselSection1\crianca1.jpg"
+            src="/carrosselSection1/Crianca1.jpg"
             alt="Crianças pintando"
             className="max-w-[260px] h-auto object-contain rounded-xl"
           />
@@ -42,7 +42,7 @@ export function Carousel2() {
 
         <CarouselItem className="pl-2 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center">
           <img
-            src="src\components\carrosselSection1\SegundaColorir3d.jpg"
+            src="/carrosselSection1/Grito.jpg"
             alt="Logo do site"
             className="max-w-[260px] h-auto object-contain rounded-xl"
           />
@@ -53,7 +53,7 @@ export function Carousel2() {
 
         <CarouselItem className="pl-2 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center">
           <img
-            src="src\components\carrosselSection1\crianca2.jpg"
+            src="/carrosselSection1/Crianca2.jpg"
             alt="Crianças pintando"
             className="max-w-[260px] h-auto object-contain rounded-xl"
           />
@@ -61,21 +61,21 @@ export function Carousel2() {
 
         <CarouselItem className="pl-2 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center">
           <img
-            src="src\components\carrosselSection1\QuartaColorir3d.jpg"
+            src="/carrosselSection1/Mulher.jpg"
             alt="Crianças pintando"
             className="max-w-[260px] h-auto object-contain rounded-xl"
           />
         </CarouselItem>
         <CarouselItem className="pl-2 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center">
           <img
-            src="src\components\carrosselSection1\DesenhoPintado.jpg"
+            src="/carrosselSection1/DesenhoPintado.jpg"
             alt="Crianças pintando"
             className="max-w-[260px] h-auto object-contain rounded-xl"
           />
         </CarouselItem>
         <CarouselItem className="pl-2 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center">
           <img
-            src="src\components\carrosselSection1\QuintaColorir3d.jpg"
+            src="/carrosselSection1/QuintaColorir3d.jpg"
             alt="Crianças pintando"
             className="max-w-[260px] h-auto object-contain rounded-xl"
           />
@@ -87,7 +87,7 @@ export function Carousel2() {
 
         <CarouselItem className="pl-2 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center">
           <img
-            src="src\components\carrosselSection1\Bloqueado.png"
+            src="/carrosselSection1/Bloqueado.png"
             alt="Crianças pintando"
             className="max-w-[260px] h-auto object-contain rounded-xl m-6"
           />

@@ -1,5 +1,5 @@
 import KidsCarousel from "./Carrossel";
-import { Carousel2 } from "./carrosselSection1/Carrossel2";
+import { Carousel2 } from "./Carrossel2";
 
 export const PrimeiraSection = () => {
   return (
