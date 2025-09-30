@@ -1,4 +1,5 @@
-import KidsCarousel from "./Carousel";
+import KidsCarousel from "./Carrossel";
+import { Carousel2 } from "./carrosselSection1/Carrossel2";
 
 export const PrimeiraSection = () => {
   return (
@@ -16,11 +17,12 @@ export const PrimeiraSection = () => {
           prontas para <span className="text-orange-500">montar e colorir!</span>
         </h1>
 
-        <img
+        {/* <img
           className="mx-auto mt-6 w-full max-w-sm sm:max-w-md md:max-w-lg h-auto animate-pulse-scale"
-          src="./imgteste.png"
+          src="./arteSection1.jpg"
           alt="Arte em 3D"
-        />
+        /> */}
+        <Carousel2/>
 
         <h2 className="mt-6 text-lg sm:text-xl md:text-2xl font-semibold">
           Uma coleção com <span className="text-orange-500">60 MOLDES EM 3D</span> que une
