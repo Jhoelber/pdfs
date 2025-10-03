@@ -74,8 +74,8 @@ export const PrimeiraSection = () => {
 
           <img
             className="mx-auto mt-6 w-40 sm:w-48 md:w-56 h-auto"
-            src="./imgteste.png"
-            alt="Arte em 3D"
+            src="./COMENTARIO.jpg"
+            alt="Comentario"
           />
 
           <a href="https://www.youtube.com/watch?v=co-4gkvjNvw" className=" animate-pulse-scale-button  text-white mt-8 inline-flex items-center justify-center rounded-xl px-6 py-3 text-lg sm:text-xl font-semibold bg-green-600 hover:bg-green-700 w-full sm:w-auto">
@@ -221,15 +221,11 @@ export const PrimeiraSection = () => {
       <section className="bg-neutral-200 ">
         <div className="flex justify-center p-8">
           <img
-            className="w-24 sm:w-28 md:w-32 mb-3"
-            src="./imgteste.png"
+            className=" sm:w-28 md:w-96 mb-3"
+            src="./mock.webp"
             alt=""
           />
-          <img
-            className="w-24 sm:w-28 md:w-32 mb-3"
-            src="./imgteste.png"
-            alt=""
-          />
+
         </div>
       </section>
 
@@ -243,21 +239,25 @@ export const PrimeiraSection = () => {
   ">
           {[
             {
+              img: "./section4/30obras.png",
               titulo: "Bônus 01",
               subtitulo: "60 Obras Internacionais para Colorir",
               desc: "Um conjunto especial com 60 obras internacionais adaptadas para o universo infantil. Além das ilustrações para colorir, cada página apresenta dados do artista, curiosidades sobre a obra e um resumo da sua trajetória — unindo arte e cultura de forma leve, lúdica e criativa."
             },
             {
+              img: "./section4/pequenosArtistas.png",
               titulo: "Bônus 02",
               subtitulo: "30 Obras Nacionais para Colorir",
               desc: "Uma seleção especial com 30 obras brasileiras adaptadas para o universo infantil. Além das ilustrações para colorir, cada página apresenta dados do artista, curiosidades sobre a obra e um resumo da sua trajetória — unindo arte e cultura de forma leve, lúdica e criativa.."
             },
             {
+              img: "./section4/variasfotos.webp",
               titulo: "Bônus 03",
               subtitulo: "Cartões Visuais – Conheça o Artista!",
               desc: "Cartões ilustrados com informações rápidas e curiosas sobre os grandes nomes da arte. Ideal para usar como jogo, consulta ou exposição em casa ou na sala de aula."
             },
             {
+              img: "./section4/ultima.png",
               titulo: "Bônus 04",
               subtitulo: "Mundo Colorido",
               desc: "Dê asas à criatividade dos pequenos com o Mundo Colorido! Perfeito para incentivar a expressão artística das crianças, permitindo que elas pintem e explorem um mundo de cores e fantasia."
@@ -268,10 +268,11 @@ export const PrimeiraSection = () => {
               className="flex flex-col items-center text-center border-2 border-orange-500 rounded-xl p-4 md:p-6 h-full"
             >
               <img
-                className="w-24 sm:w-28 md:w-32 mb-3"
-                src="./imgteste.png"
+                className="w-full max-w-[128px] sm:max-w-[160px] md:max-w-[200px] h-auto mb-3"
+                src={item.img}
                 alt=""
               />
+
               <h1 className="text-neuteral-500 text-lg sm:text-xl md:text-2xl font-semibold mb-2">
                 {item.titulo}
               </h1>
@@ -345,8 +346,8 @@ export const PrimeiraSection = () => {
         <div className="flex flex-col items-center p-6 bg-neutral-100 rounded-xl text-center shadow-md">
           <img
             className="w-40 sm:w-48 md:w-56 mb-4"
-            src="./impressora.png"
-            alt="Impressora 3D"
+            src="./educadores.webp"
+            alt="educadores"
           />
 
           <h1 className="mb-4 text-zinc-600 text-lg sm:text-xl md:text-2xl font-semibold leading-snug">
@@ -381,11 +382,11 @@ export const PrimeiraSection = () => {
         <h1 className="text-white text-center text-2xl mb-6">Plano Básico:</h1>
 
         <div className="mx-auto max-w-md flex flex-col items-center p-6 bg-white rounded-xl text-center shadow-md">
-         <img
-  className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto mb-4"
-  src="/basicoplan.png"
-  alt="Impressora 3D"
-/>
+          <img
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto mb-4"
+            src="/basicoplan.png"
+            alt="Impressora 3D"
+          />
 
           <h1 className="mb-2 text-zinc-600 text-lg sm:text-xl md:text-xl leading-snug">
             ✔️ 60 moldes 3D de obras mundiais
@@ -408,10 +409,11 @@ export const PrimeiraSection = () => {
 
         <div className="mx-auto max-w-md flex flex-col items-center p-6 bg-white rounded-xl text-center shadow-md">
           <img
-            className="w-32 sm:w-40 md:w-48 mb-4 animate-pulse-scale"
-            src="./impressora.png"
-            alt="Impressora 3D"
+            className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto mb-4 animate-pulse-scale"
+            src="/MOCKUP-PRINCIPAL-2.webp"
+            alt="Pacote completo"
           />
+
 
           <div className="flex flex-col gap-2">
 
