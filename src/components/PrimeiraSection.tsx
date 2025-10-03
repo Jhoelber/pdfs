@@ -47,7 +47,7 @@ export const PrimeiraSection = () => {
 
           <img
             className="mx-auto mt-10 w-full max-w-md sm:max-w-lg md:max-w-2xl h-auto rounded-md"
-            src="./imgteste.png"
+            src="./fotogrande.png"
             alt="Arte em 3D"
           />
 
@@ -95,7 +95,7 @@ export const PrimeiraSection = () => {
 
         <img
           className="mx-auto mt-6 w-full max-w-sm sm:max-w-md md:max-w-lg h-auto animate-pulse-scale"
-          src="./imgteste.png"
+          src="./var.png"
           alt="Arte em 3D"
         />
 

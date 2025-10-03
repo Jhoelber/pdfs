@@ -49,8 +49,6 @@ export function Carousel2() {
         </CarouselItem>
 
 
-
-
         <CarouselItem className="pl-2 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center">
           <img
             src="/carrosselSection1/Crianca2.jpg"
@@ -80,9 +78,6 @@ export function Carousel2() {
             className="max-w-[260px] h-auto object-contain rounded-xl"
           />
         </CarouselItem>
-
-
-
 
 
         <CarouselItem className="pl-2 basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/3 flex justify-center">
