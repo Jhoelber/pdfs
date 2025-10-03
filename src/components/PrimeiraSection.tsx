@@ -124,6 +124,33 @@ export const PrimeiraSection = () => {
 
       </section>
 
+      <section className=" mx-auto px-4 sm:px-6 lg:px-8 py-10 text-center bg-zinc-100">
+        <div className="text-center">
+          <h1 className="p-4 text-zinc-500 text-xl sm:text-2xl md:text-3xl font-semibold leading-snug">
+            O que dizem os mais de 3100 clientes que compraram:
+          </h1>
+          <h2>⭐️⭐️⭐️⭐️⭐️</h2>
+          <p className="text-green-500 text-xl sm:text-2xl md:text-3xl font-semibold leading-snug p-4">
+            + 600 avaliações positivas:
+          </p>
+
+         
+          <div className="flex flex-wrap justify-center gap-4">
+            <img className="w-24 sm:w-28 md:w-32" src="/COMENTARIO.jpg" alt="" />
+            <img className="w-24 sm:w-28 md:w-32" src="/COMENTARIO2.jpg" alt="" />
+            <img className="w-24 sm:w-28 md:w-32" src="/COMENTARIO3.jpg" alt="" />
+            <img className="w-24 sm:w-28 md:w-32" src="/COMENTARIO4.jpg" alt="" />
+            <img className="w-24 sm:w-28 md:w-32" src="/COMENTARIO5.jpg" alt="" />
+            <img className="w-24 sm:w-28 md:w-32" src="/COMENTARIO6.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
       <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 text-center">
         <h1 className="p-4 text-zinc-500 text-xl sm:text-2xl md:text-3xl font-semibold leading-snug">
           O que você receberá no <span className="text-orange-500">Arte em 3D</span>:
