@@ -48,8 +48,12 @@ export function Carousel2() {
       </CarouselContent>
 
       {/* setas visíveis também no mobile */}
-      <CarouselPrevious className="!flex left-2 top-1/2 -translate-y-1/2 z-10 pointer-events-auto size-10 sm:size-10 p-0" />
-      <CarouselNext className="!flex right-2 top-1/2 -translate-y-1/2 z-10 pointer-events-auto size-10 sm:size-10 p-0" />
+      <CarouselPrevious
+        className="!flex left-2 top-1/2 -translate-y-1/2 z-10 pointer-events-auto w-8 h-8 p-0 bg-transparent"
+      />
+      <CarouselNext
+        className="!flex right-2 top-1/2 -translate-y-1/2 z-10 pointer-events-auto w-8 h-8 p-0  bg-transparent "
+      />
     </Carousel>
   )
 }
