@@ -135,7 +135,8 @@ export const PrimeiraSection = () => {
           </p>
 
          
-          <div className="flex flex-wrap justify-center gap-4">
+
+          <div className="flex flex-wrap justify-center gap-4 ">
             <img className="w-24 sm:w-28 md:w-32" src="/COMENTARIO.jpg" alt="" />
             <img className="w-24 sm:w-28 md:w-32" src="/COMENTARIO2.jpg" alt="" />
             <img className="w-24 sm:w-28 md:w-32" src="/COMENTARIO3.jpg" alt="" />
