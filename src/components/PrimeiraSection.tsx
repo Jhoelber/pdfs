@@ -22,7 +22,7 @@ export const PrimeiraSection = () => {
           src="./arteSection1.jpg"
           alt="Arte em 3D"
         /> */}
-        <Carousel2/>
+        <Carousel2 />
 
         <h2 className="mt-6 text-lg sm:text-xl md:text-2xl font-semibold">
           Uma coleção com <span className="text-orange-500">60 MOLDES EM 3D</span> que une
@@ -94,10 +94,11 @@ export const PrimeiraSection = () => {
         </h1>
 
         <img
-          className="mx-auto mt-6 w-full max-w-sm sm:max-w-md md:max-w-lg h-auto animate-pulse-scale"
-          src="./var.png"
+          className="mx-auto mt-6 w-full max-w-full sm:max-w-md md:max-w-lg h-auto animate-pulse-scale"
+          src="/var.png"
           alt="Arte em 3D"
         />
+
 
         <p className=" text-orange-500 mt-6 text-lg sm:text-xl md:text-2xl font-semibold">
           🎨 60 Obras Clássicas
@@ -130,31 +131,38 @@ export const PrimeiraSection = () => {
 
         {/* Grade responsiva */}
         <div className="
-    grid gap-4
-    grid-cols-1 sm:grid-cols-2 md:grid-cols-3
+    
+    grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-6
+
   ">
           {[
             {
+              img: "/sectionARTE3D/historiaMarcam.png",
               titulo: "Retratos que Marcaram a História",
               desc: "Obras que mostram pessoas importantes ou misteriosas, com grande expressão ou simbolismo."
             },
             {
+              img: " /sectionARTE3D/ceusonhos.png",
               titulo: "Céus, Sonhos e Imaginação",
               desc: "Obras que exploram o mundo interno, o surrealismo, ou cenas poéticas."
             },
             {
+              img: "/sectionARTE3D/religiao.png",
               titulo: "Religião, Mitos e Espiritualidade",
               desc: "Obras com temas bíblicos, mitológicos ou espirituais."
             },
             {
+              img: "/sectionARTE3D/mundo.png",
               titulo: "Cenas do Mundo e da Natureza",
               desc: "Obras com paisagens, natureza morta ou observação do cotidiano."
             },
             {
+              img: "/sectionARTE3D/obrashjist.png",
               titulo: "Obras que Contam Histórias",
               desc: "Obras com narrativa visual forte — cenas de guerra, encontros, danças, etc."
             },
             {
+              img: "/sectionARTE3D/corpo.png",
               titulo: "Movimento, Corpos e Emoção",
               desc: "Obras com foco em dança, corpo humano, formas geométricas ou expressão visual."
             },
@@ -165,7 +173,7 @@ export const PrimeiraSection = () => {
             >
               <img
                 className="w-24 sm:w-28 md:w-32 mb-3"
-                src="./imgteste.png"
+                src={item.img}
                 alt=""
               />
               <h2 className="text-orange-500 text-lg sm:text-xl md:text-2xl font-semibold mb-2">
@@ -373,11 +381,11 @@ export const PrimeiraSection = () => {
         <h1 className="text-white text-center text-2xl mb-6">Plano Básico:</h1>
 
         <div className="mx-auto max-w-md flex flex-col items-center p-6 bg-white rounded-xl text-center shadow-md">
-          <img
-            className="w-32 sm:w-40 md:w-48 mb-4"
-            src="./impressora.png"
-            alt="Impressora 3D"
-          />
+         <img
+  className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg h-auto mb-4"
+  src="/basicoplan.png"
+  alt="Impressora 3D"
+/>
 
           <h1 className="mb-2 text-zinc-600 text-lg sm:text-xl md:text-xl leading-snug">
             ✔️ 60 moldes 3D de obras mundiais
