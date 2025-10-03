@@ -19,7 +19,7 @@ export function Carousel2() {
     <Carousel
       plugins={[plugin.current]}
       opts={{ align: "start", loop: true }}
-      className="w-full max-w-3xl mx-auto"
+      className="w-full max-w-3xl mx-auto relative"
     >
       {/* gap entre os itens */}
       <CarouselContent className="-ml-2">
@@ -39,7 +39,7 @@ export function Carousel2() {
           >
             <img
               src={src}
-              alt="slide"
+              alt={`slide-${i + 1}`}
               className="w-full max-w-[260px] h-auto object-contain rounded-xl"
               draggable={false}
             />
@@ -47,8 +47,9 @@ export function Carousel2() {
         ))}
       </CarouselContent>
 
-      <CarouselPrevious />
-      <CarouselNext />
+      {/* setas visíveis também no mobile */}
+      <CarouselPrevious className="!flex left-2 top-1/2 -translate-y-1/2 z-10 pointer-events-auto size-10 sm:size-10 p-0" />
+      <CarouselNext className="!flex right-2 top-1/2 -translate-y-1/2 z-10 pointer-events-auto size-10 sm:size-10 p-0" />
     </Carousel>
   )
 }
